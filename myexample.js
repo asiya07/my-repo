@@ -6,6 +6,7 @@ function emp(id,name,language)
 }
 var e1= new emp(1,"abc");
 console.log(e1);
+console.log("Print Hurray")
 
 
 function employee(id,name, designation)

@@ -1,0 +1,58 @@
+<!--
+Filename: c:\Users\HP\Desktop\Javascript\index.html
+Path: c:\Users\HP\Desktop\Javascript
+Created Date: Wednesday, February 14th 2018, 12:37:29 pm
+Author: HP asiya
+
+Copyright (c) 2018 VLIT
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<button id=btn1 style="color:blue" onclick="print('asiya')" > Print</button>
+<button id=btn2 style="color:green" onclick="add(2,3)"> Addition </button>
+<button id=btn2 style="color:red" onclick="multiply(4,5)"> Multiplication </button>
+<button id=btn2 style="color:red" onclick="sub(4,3)"> Substract</button>
+
+<script>
+    function print(asiya)
+    {
+        console.log("hello"+ arguments[0]);
+         document.write(person.id + person.name)
+    }
+
+    function add(a,b)
+    {
+        c=a+b;
+        console.log(c);
+ console.log(a);
+ console.log(b);
+    }
+        
+    function multiply(a,b)
+    {
+        c=a*b;
+        console.log(c);
+    }
+    var sub= function(a,b)
+    {
+ 
+        c=a-b; 
+        console.log(c);
+ 
+    }
+
+    var person={
+        id:2,
+        name:"asiya",
+    }
+</script>
+</body>
+</html>
